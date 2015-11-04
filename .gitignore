@@ -19,3 +19,6 @@ build
 *.a
 *.i
 *.d
+/bsp/simulator/Debug
+/bsp/simulator/project.sdf
+/bsp/simulator/project.v11.suo

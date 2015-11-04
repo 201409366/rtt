@@ -1,0 +1,1148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="applications\application.c">
+      <Filter>Source Files\Applications</Filter>
+    </ClCompile>
+    <ClCompile Include="applications\platform.c">
+      <Filter>Source Files\Applications</Filter>
+    </ClCompile>
+    <ClCompile Include="applications\startup.c">
+      <Filter>Source Files\Applications</Filter>
+    </ClCompile>
+    <ClCompile Include="drivers\board.c">
+      <Filter>Source Files\Drivers</Filter>
+    </ClCompile>
+    <ClCompile Include="drivers\dfs_win32.c">
+      <Filter>Source Files\Drivers</Filter>
+    </ClCompile>
+    <ClCompile Include="drivers\nanddrv_file.c">
+      <Filter>Source Files\Drivers</Filter>
+    </ClCompile>
+    <ClCompile Include="drivers\sd_sim.c">
+      <Filter>Source Files\Drivers</Filter>
+    </ClCompile>
+    <ClCompile Include="drivers\sdl_fb.c">
+      <Filter>Source Files\Drivers</Filter>
+    </ClCompile>
+    <ClCompile Include="drivers\serial.c">
+      <Filter>Source Files\Drivers</Filter>
+    </ClCompile>
+    <ClCompile Include="drivers\usart_sim.c">
+      <Filter>Source Files\Drivers</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\demo_application.c">
+      <Filter>Source Files\gui_examples</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\demo_view.c">
+      <Filter>Source Files\gui_examples</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\demo_xml.c">
+      <Filter>Source Files\gui_examples</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\demo_fnview.c">
+      <Filter>Source Files\gui_examples</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\demo_view_benchmark.c">
+      <Filter>Source Files\gui_examples</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\demo_view_dc.c">
+      <Filter>Source Files\gui_examples</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\demo_view_ttf.c">
+      <Filter>Source Files\gui_examples</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\demo_view_dc_buffer.c">
+      <Filter>Source Files\gui_examples</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\demo_view_animation.c">
+      <Filter>Source Files\gui_examples</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\demo_view_buffer_animation.c">
+      <Filter>Source Files\gui_examples</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\demo_view_instrument_panel.c">
+      <Filter>Source Files\gui_examples</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\demo_view_window.c">
+      <Filter>Source Files\gui_examples</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\demo_view_label.c">
+      <Filter>Source Files\gui_examples</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\demo_view_button.c">
+      <Filter>Source Files\gui_examples</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\demo_view_checkbox.c">
+      <Filter>Source Files\gui_examples</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\demo_view_progressbar.c">
+      <Filter>Source Files\gui_examples</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\demo_view_scrollbar.c">
+      <Filter>Source Files\gui_examples</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\demo_view_radiobox.c">
+      <Filter>Source Files\gui_examples</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\demo_view_textbox.c">
+      <Filter>Source Files\gui_examples</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\demo_view_listbox.c">
+      <Filter>Source Files\gui_examples</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\demo_view_menu.c">
+      <Filter>Source Files\gui_examples</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\demo_view_listctrl.c">
+      <Filter>Source Files\gui_examples</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\demo_view_combobox.c">
+      <Filter>Source Files\gui_examples</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\demo_view_slider.c">
+      <Filter>Source Files\gui_examples</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\demo_view_notebook.c">
+      <Filter>Source Files\gui_examples</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\demo_view_mywidget.c">
+      <Filter>Source Files\gui_examples</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\demo_view_box.c">
+      <Filter>Source Files\gui_examples</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\demo_view_edit.c">
+      <Filter>Source Files\gui_examples</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\demo_view_bmp.c">
+      <Filter>Source Files\gui_examples</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\demo_plot.c">
+      <Filter>Source Files\gui_examples</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\mywidget.c">
+      <Filter>Source Files\gui_examples</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\demo_view_digtube.c">
+      <Filter>Source Files\gui_examples</Filter>
+    </ClCompile>
+    <ClCompile Include="rtgui_demo\snake\snake.c">
+      <Filter>Source Files\snake</Filter>
+    </ClCompile>
+    <ClCompile Include="rtgui_demo\snake\snake_gui.c">
+      <Filter>Source Files\snake</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\clock.c">
+      <Filter>Source Files\Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\device.c">
+      <Filter>Source Files\Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\idle.c">
+      <Filter>Source Files\Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ipc.c">
+      <Filter>Source Files\Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\irq.c">
+      <Filter>Source Files\Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\kservice.c">
+      <Filter>Source Files\Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\mem.c">
+      <Filter>Source Files\Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\object.c">
+      <Filter>Source Files\Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\scheduler.c">
+      <Filter>Source Files\Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\thread.c">
+      <Filter>Source Files\Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\timer.c">
+      <Filter>Source Files\Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libcpu\sim\win32\cpu_port.c">
+      <Filter>Source Files\WIN32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\dfs\src\dfs.c">
+      <Filter>Source Files\Filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\dfs\src\dfs_fs.c">
+      <Filter>Source Files\Filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\dfs\src\dfs_file.c">
+      <Filter>Source Files\Filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\dfs\src\dfs_posix.c">
+      <Filter>Source Files\Filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\dfs\filesystems\elmfat\dfs_elm.c">
+      <Filter>Source Files\Filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\dfs\filesystems\elmfat\ff.c">
+      <Filter>Source Files\Filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\dfs\filesystems\uffs\src\uffs\uffs_badblock.c">
+      <Filter>Source Files\Filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\dfs\filesystems\uffs\src\uffs\uffs_blockinfo.c">
+      <Filter>Source Files\Filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\dfs\filesystems\uffs\src\uffs\uffs_buf.c">
+      <Filter>Source Files\Filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\dfs\filesystems\uffs\src\uffs\uffs_debug.c">
+      <Filter>Source Files\Filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\dfs\filesystems\uffs\src\uffs\uffs_device.c">
+      <Filter>Source Files\Filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\dfs\filesystems\uffs\src\uffs\uffs_ecc.c">
+      <Filter>Source Files\Filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\dfs\filesystems\uffs\src\uffs\uffs_crc.c">
+      <Filter>Source Files\Filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\dfs\filesystems\uffs\src\uffs\uffs_fd.c">
+      <Filter>Source Files\Filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\dfs\filesystems\uffs\src\uffs\uffs_find.c">
+      <Filter>Source Files\Filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\dfs\filesystems\uffs\src\uffs\uffs_flash.c">
+      <Filter>Source Files\Filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\dfs\filesystems\uffs\src\uffs\uffs_fs.c">
+      <Filter>Source Files\Filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\dfs\filesystems\uffs\src\uffs\uffs_init.c">
+      <Filter>Source Files\Filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\dfs\filesystems\uffs\src\uffs\uffs_mem.c">
+      <Filter>Source Files\Filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\dfs\filesystems\uffs\src\uffs\uffs_mtb.c">
+      <Filter>Source Files\Filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\dfs\filesystems\uffs\src\uffs\uffs_pool.c">
+      <Filter>Source Files\Filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\dfs\filesystems\uffs\src\uffs\uffs_public.c">
+      <Filter>Source Files\Filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\dfs\filesystems\uffs\src\uffs\uffs_tree.c">
+      <Filter>Source Files\Filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\dfs\filesystems\uffs\src\uffs\uffs_utils.c">
+      <Filter>Source Files\Filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\dfs\filesystems\uffs\src\uffs\uffs_version.c">
+      <Filter>Source Files\Filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\dfs\filesystems\uffs\dfs_uffs.c">
+      <Filter>Source Files\Filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\dfs\filesystems\uffs\uffs_nandif.c">
+      <Filter>Source Files\Filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\dfs\filesystems\uffs\uffs_rtthread.c">
+      <Filter>Source Files\Filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\drivers\mtd\mtd_nand.c">
+      <Filter>Source Files\DeviceDrivers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\drivers\src\completion.c">
+      <Filter>Source Files\DeviceDrivers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\drivers\src\dataqueue.c">
+      <Filter>Source Files\DeviceDrivers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\drivers\src\pipe.c">
+      <Filter>Source Files\DeviceDrivers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\drivers\src\portal.c">
+      <Filter>Source Files\DeviceDrivers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\drivers\src\ringbuffer.c">
+      <Filter>Source Files\DeviceDrivers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\drivers\src\workqueue.c">
+      <Filter>Source Files\DeviceDrivers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\finsh\shell.c">
+      <Filter>Source Files\finsh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\finsh\symbol.c">
+      <Filter>Source Files\finsh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\finsh\cmd.c">
+      <Filter>Source Files\finsh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\finsh\finsh_compiler.c">
+      <Filter>Source Files\finsh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\finsh\finsh_error.c">
+      <Filter>Source Files\finsh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\finsh\finsh_heap.c">
+      <Filter>Source Files\finsh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\finsh\finsh_init.c">
+      <Filter>Source Files\finsh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\finsh\finsh_node.c">
+      <Filter>Source Files\finsh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\finsh\finsh_ops.c">
+      <Filter>Source Files\finsh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\finsh\finsh_parser.c">
+      <Filter>Source Files\finsh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\finsh\finsh_var.c">
+      <Filter>Source Files\finsh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\finsh\finsh_vm.c">
+      <Filter>Source Files\finsh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\finsh\finsh_token.c">
+      <Filter>Source Files\finsh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\init\components.c">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\rtgui\common\animation.c">
+      <Filter>Source Files\RTGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\rtgui\common\animation_engines.c">
+      <Filter>Source Files\RTGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\rtgui\common\asc12font.c">
+      <Filter>Source Files\RTGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\rtgui\common\asc16font.c">
+      <Filter>Source Files\RTGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\rtgui\common\blit.c">
+      <Filter>Source Files\RTGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\rtgui\common\color.c">
+      <Filter>Source Files\RTGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\rtgui\common\dc.c">
+      <Filter>Source Files\RTGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\rtgui\common\dc_blend.c">
+      <Filter>Source Files\RTGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\rtgui\common\dc_buffer.c">
+      <Filter>Source Files\RTGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\rtgui\common\dc_client.c">
+      <Filter>Source Files\RTGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\rtgui\common\dc_hw.c">
+      <Filter>Source Files\RTGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\rtgui\common\dc_rotozoom.c">
+      <Filter>Source Files\RTGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\rtgui\common\dc_trans.c">
+      <Filter>Source Files\RTGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\rtgui\common\filerw.c">
+      <Filter>Source Files\RTGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\rtgui\common\font.c">
+      <Filter>Source Files\RTGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\rtgui\common\font_bmp.c">
+      <Filter>Source Files\RTGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\rtgui\common\font_fnt.c">
+      <Filter>Source Files\RTGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\rtgui\common\font_freetype.c">
+      <Filter>Source Files\RTGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\rtgui\common\font_hz_bmp.c">
+      <Filter>Source Files\RTGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\rtgui\common\font_hz_file.c">
+      <Filter>Source Files\RTGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\rtgui\common\framebuffer_driver.c">
+      <Filter>Source Files\RTGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\rtgui\common\hz12font.c">
+      <Filter>Source Files\RTGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\rtgui\common\hz16font.c">
+      <Filter>Source Files\RTGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\rtgui\common\image.c">
+      <Filter>Source Files\RTGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\rtgui\common\image_bmp.c">
+      <Filter>Source Files\RTGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\rtgui\common\image_container.c">
+      <Filter>Source Files\RTGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\rtgui\common\image_hdc.c">
+      <Filter>Source Files\RTGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\rtgui\common\image_xpm.c">
+      <Filter>Source Files\RTGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\rtgui\common\matrix.c">
+      <Filter>Source Files\RTGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\rtgui\common\pixel_driver.c">
+      <Filter>Source Files\RTGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\rtgui\common\region.c">
+      <Filter>Source Files\RTGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\rtgui\common\rtgui_app.c">
+      <Filter>Source Files\RTGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\rtgui\common\rtgui_mv_model.c">
+      <Filter>Source Files\RTGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\rtgui\common\rtgui_object.c">
+      <Filter>Source Files\RTGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\rtgui\common\rtgui_system.c">
+      <Filter>Source Files\RTGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\rtgui\common\rtgui_theme.c">
+      <Filter>Source Files\RTGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\rtgui\common\rtgui_xml.c">
+      <Filter>Source Files\RTGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\rtgui\server\driver.c">
+      <Filter>Source Files\RTGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\rtgui\server\gesture.c">
+      <Filter>Source Files\RTGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\rtgui\server\mouse.c">
+      <Filter>Source Files\RTGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\rtgui\server\server.c">
+      <Filter>Source Files\RTGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\rtgui\server\topwin.c">
+      <Filter>Source Files\RTGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\rtgui\server\touch.c">
+      <Filter>Source Files\RTGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\rtgui\widgets\box.c">
+      <Filter>Source Files\RTGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\rtgui\widgets\button.c">
+      <Filter>Source Files\RTGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\rtgui\widgets\caret.c">
+      <Filter>Source Files\RTGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\rtgui\widgets\checkbox.c">
+      <Filter>Source Files\RTGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\rtgui\widgets\combobox.c">
+      <Filter>Source Files\RTGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\rtgui\widgets\container.c">
+      <Filter>Source Files\RTGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\rtgui\widgets\digfont.c">
+      <Filter>Source Files\RTGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\rtgui\widgets\digtube.c">
+      <Filter>Source Files\RTGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\rtgui\widgets\edit.c">
+      <Filter>Source Files\RTGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\rtgui\widgets\filelist_view.c">
+      <Filter>Source Files\RTGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\rtgui\widgets\groupbox.c">
+      <Filter>Source Files\RTGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\rtgui\widgets\iconbox.c">
+      <Filter>Source Files\RTGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\rtgui\widgets\label.c">
+      <Filter>Source Files\RTGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\rtgui\widgets\list_view.c">
+      <Filter>Source Files\RTGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\rtgui\widgets\listbox.c">
+      <Filter>Source Files\RTGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\rtgui\widgets\listctrl.c">
+      <Filter>Source Files\RTGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\rtgui\widgets\menu.c">
+      <Filter>Source Files\RTGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\rtgui\widgets\mv_view.c">
+      <Filter>Source Files\RTGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\rtgui\widgets\notebook.c">
+      <Filter>Source Files\RTGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\rtgui\widgets\panel.c">
+      <Filter>Source Files\RTGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\rtgui\widgets\plot.c">
+      <Filter>Source Files\RTGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\rtgui\widgets\plot_curve.c">
+      <Filter>Source Files\RTGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\rtgui\widgets\progressbar.c">
+      <Filter>Source Files\RTGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\rtgui\widgets\radiobox.c">
+      <Filter>Source Files\RTGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\rtgui\widgets\scrollbar.c">
+      <Filter>Source Files\RTGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\rtgui\widgets\slider.c">
+      <Filter>Source Files\RTGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\rtgui\widgets\staticline.c">
+      <Filter>Source Files\RTGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\rtgui\widgets\text_encoding.c">
+      <Filter>Source Files\RTGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\rtgui\widgets\textbox.c">
+      <Filter>Source Files\RTGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\rtgui\widgets\textview.c">
+      <Filter>Source Files\RTGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\rtgui\widgets\title.c">
+      <Filter>Source Files\RTGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\rtgui\widgets\widget.c">
+      <Filter>Source Files\RTGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\components\rtgui\widgets\window.c">
+      <Filter>Source Files\RTGUI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{c998d1c0-82e7-11e5-81a5-005056c00008}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{c998d1c1-82e7-11e5-b374-005056c00008}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Applications">
+      <UniqueIdentifier>{c998d1c2-82e7-11e5-adf0-005056c00008}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Drivers">
+      <UniqueIdentifier>{c998d1c3-82e7-11e5-8669-005056c00008}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\gui_examples">
+      <UniqueIdentifier>{c998d1c4-82e7-11e5-905e-005056c00008}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\snake">
+      <UniqueIdentifier>{c998d1c5-82e7-11e5-b6e4-005056c00008}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Kernel">
+      <UniqueIdentifier>{c998d1c6-82e7-11e5-b9d9-005056c00008}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WIN32">
+      <UniqueIdentifier>{c998d1c7-82e7-11e5-907c-005056c00008}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Filesystem">
+      <UniqueIdentifier>{c99b42c0-82e7-11e5-87c7-005056c00008}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DeviceDrivers">
+      <UniqueIdentifier>{c99b42c1-82e7-11e5-8f6e-005056c00008}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\finsh">
+      <UniqueIdentifier>{c99b42c2-82e7-11e5-8291-005056c00008}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Components">
+      <UniqueIdentifier>{c99b42c3-82e7-11e5-87de-005056c00008}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\RTGUI">
+      <UniqueIdentifier>{c99d8cb0-82e7-11e5-9856-005056c00008}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SDL\include\SDL_active.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL\include\SDL_audio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL\include\SDL_cdrom.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL\include\SDL_config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL\include\SDL_config_dreamcast.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL\include\SDL_config_macos.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL\include\SDL_config_macosx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL\include\SDL_config_minimal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL\include\SDL_config_os2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL\include\SDL_config_symbian.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL\include\SDL_config_win32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL\include\SDL_cpuinfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL\include\SDL_endian.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL\include\SDL_error.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL\include\SDL_events.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL\include\SDL_joystick.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL\include\SDL_keyboard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL\include\SDL_keysym.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL\include\SDL_loadso.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL\include\SDL_main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL\include\SDL_mouse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL\include\SDL_mutex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL\include\SDL_platform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL\include\SDL_quit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL\include\SDL_rwops.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL\include\SDL_stdinc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL\include\SDL_thread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL\include\SDL_timer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL\include\SDL_version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL\include\SDL_video.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL\include\begin_code.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL\include\close_code.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL\include\sdl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="drivers\board.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="drivers\serial.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="examples\demo_view.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="examples\mywidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rtconfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rtgui_demo\snake\snake.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\dfs\filesystems\elmfat\diskio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\dfs\filesystems\elmfat\ff.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\dfs\filesystems\elmfat\ffconf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\dfs\filesystems\elmfat\integer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\dfs\filesystems\uffs\dfs_uffs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\dfs\filesystems\uffs\src\inc\uffs\uffs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\dfs\filesystems\uffs\src\inc\uffs\uffs_badblock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\dfs\filesystems\uffs\src\inc\uffs\uffs_blockinfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\dfs\filesystems\uffs\src\inc\uffs\uffs_buf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\dfs\filesystems\uffs\src\inc\uffs\uffs_core.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\dfs\filesystems\uffs\src\inc\uffs\uffs_crc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\dfs\filesystems\uffs\src\inc\uffs\uffs_device.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\dfs\filesystems\uffs\src\inc\uffs\uffs_ecc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\dfs\filesystems\uffs\src\inc\uffs\uffs_fd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\dfs\filesystems\uffs\src\inc\uffs\uffs_find.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\dfs\filesystems\uffs\src\inc\uffs\uffs_flash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\dfs\filesystems\uffs\src\inc\uffs\uffs_fs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\dfs\filesystems\uffs\src\inc\uffs\uffs_mem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\dfs\filesystems\uffs\src\inc\uffs\uffs_mtb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\dfs\filesystems\uffs\src\inc\uffs\uffs_os.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\dfs\filesystems\uffs\src\inc\uffs\uffs_pool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\dfs\filesystems\uffs\src\inc\uffs\uffs_public.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\dfs\filesystems\uffs\src\inc\uffs\uffs_tree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\dfs\filesystems\uffs\src\inc\uffs\uffs_types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\dfs\filesystems\uffs\src\inc\uffs\uffs_utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\dfs\filesystems\uffs\src\inc\uffs\uffs_version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\dfs\filesystems\uffs\uffs_config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\dfs\include\dfs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\dfs\include\dfs_def.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\dfs\include\dfs_elm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\dfs\include\dfs_file.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\dfs\include\dfs_fs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\dfs\include\dfs_init.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\dfs\include\dfs_posix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\drivers\include\drivers\alarm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\drivers\include\drivers\i2c-bit-ops.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\drivers\include\drivers\i2c.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\drivers\include\drivers\i2c_dev.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\drivers\include\drivers\mmcsd_card.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\drivers\include\drivers\mmcsd_cmd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\drivers\include\drivers\mmcsd_core.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\drivers\include\drivers\mmcsd_host.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\drivers\include\drivers\mtd_nand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\drivers\include\drivers\mtd_nor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\drivers\include\drivers\pin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\drivers\include\drivers\rtc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\drivers\include\drivers\sd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\drivers\include\drivers\sdio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\drivers\include\drivers\sdio_func_ids.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\drivers\include\drivers\serial.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\drivers\include\drivers\spi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\drivers\include\drivers\usb_common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\drivers\include\drivers\usb_device.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\drivers\include\drivers\usb_host.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\drivers\include\drivers\watchdog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\drivers\include\rtdevice.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\finsh\finsh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\finsh\finsh_error.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\finsh\finsh_heap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\finsh\finsh_node.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\finsh\finsh_ops.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\finsh\finsh_parser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\finsh\finsh_token.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\finsh\finsh_var.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\finsh\finsh_vm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\finsh\msh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\finsh\shell.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\init\components.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\rtgui\include\rtgui\animation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\rtgui\include\rtgui\blit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\rtgui\include\rtgui\color.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\rtgui\include\rtgui\dc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\rtgui\include\rtgui\dc_client.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\rtgui\include\rtgui\dc_draw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\rtgui\include\rtgui\dc_hw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\rtgui\include\rtgui\dc_trans.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\rtgui\include\rtgui\driver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\rtgui\include\rtgui\event.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\rtgui\include\rtgui\filerw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\rtgui\include\rtgui\font.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\rtgui\include\rtgui\font_fnt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\rtgui\include\rtgui\image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\rtgui\include\rtgui\image_bmp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\rtgui\include\rtgui\image_container.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\rtgui\include\rtgui\image_hdc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\rtgui\include\rtgui\image_jpeg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\rtgui\include\rtgui\image_png.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\rtgui\include\rtgui\image_xpm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\rtgui\include\rtgui\kbddef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\rtgui\include\rtgui\list.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\rtgui\include\rtgui\matrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\rtgui\include\rtgui\region.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\rtgui\include\rtgui\rtgui.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\rtgui\include\rtgui\rtgui_app.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\rtgui\include\rtgui\rtgui_config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\rtgui\include\rtgui\rtgui_mv_model.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\rtgui\include\rtgui\rtgui_object.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\rtgui\include\rtgui\rtgui_server.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\rtgui\include\rtgui\rtgui_system.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\rtgui\include\rtgui\rtgui_theme.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\rtgui\include\rtgui\rtgui_xml.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\rtgui\include\rtgui\touch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\rtgui\include\rtgui\tree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\rtgui\include\rtgui\widgets\box.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\rtgui\include\rtgui\widgets\button.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\rtgui\include\rtgui\widgets\caret.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\rtgui\include\rtgui\widgets\checkbox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\rtgui\include\rtgui\widgets\combobox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\rtgui\include\rtgui\widgets\container.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\rtgui\include\rtgui\widgets\digfont.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\rtgui\include\rtgui\widgets\digtube.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\rtgui\include\rtgui\widgets\edit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\rtgui\include\rtgui\widgets\filelist_view.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\rtgui\include\rtgui\widgets\groupbox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\rtgui\include\rtgui\widgets\iconbox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\rtgui\include\rtgui\widgets\label.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\rtgui\include\rtgui\widgets\list_view.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\rtgui\include\rtgui\widgets\listbox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\rtgui\include\rtgui\widgets\listctrl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\rtgui\include\rtgui\widgets\menu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\rtgui\include\rtgui\widgets\mv_view.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\rtgui\include\rtgui\widgets\notebook.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\rtgui\include\rtgui\widgets\panel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\rtgui\include\rtgui\widgets\plot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\rtgui\include\rtgui\widgets\plot_curve.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\rtgui\include\rtgui\widgets\progressbar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\rtgui\include\rtgui\widgets\radiobox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\rtgui\include\rtgui\widgets\scrollbar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\rtgui\include\rtgui\widgets\slider.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\rtgui\include\rtgui\widgets\staticline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\rtgui\include\rtgui\widgets\textbox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\rtgui\include\rtgui\widgets\textview.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\rtgui\include\rtgui\widgets\title.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\rtgui\include\rtgui\widgets\widget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\rtgui\include\rtgui\widgets\window.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\rtgui\server\gesture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\rtgui\server\mouse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\rtgui\server\topwin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\components\rtgui\widgets\text_encoding.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\rtdebug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\rtdef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\rthw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\rtm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\rtservice.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\rtthread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libcpu\sim\win32\cpu_port.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
