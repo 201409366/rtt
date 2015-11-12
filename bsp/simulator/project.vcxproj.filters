@@ -16,6 +16,9 @@
     <ClCompile Include="drivers\dfs_win32.c">
       <Filter>Source Files\Drivers</Filter>
     </ClCompile>
+    <ClCompile Include="drivers\module_win32.c">
+      <Filter>Source Files\Drivers</Filter>
+    </ClCompile>
     <ClCompile Include="drivers\nanddrv_file.c">
       <Filter>Source Files\Drivers</Filter>
     </ClCompile>
@@ -152,6 +155,9 @@
       <Filter>Source Files\Kernel</Filter>
     </ClCompile>
     <ClCompile Include="..\..\src\mem.c">
+      <Filter>Source Files\Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\module.c">
       <Filter>Source Files\Kernel</Filter>
     </ClCompile>
     <ClCompile Include="..\..\src\object.c">
@@ -547,45 +553,45 @@
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{c998d1c0-82e7-11e5-81a5-005056c00008}</UniqueIdentifier>
+      <UniqueIdentifier>{1d612ccf-854a-11e5-9ecf-005056c00008}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{c998d1c1-82e7-11e5-b374-005056c00008}</UniqueIdentifier>
+      <UniqueIdentifier>{1d612cd0-854a-11e5-808a-005056c00008}</UniqueIdentifier>
       <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
     </Filter>
     <Filter Include="Source Files\Applications">
-      <UniqueIdentifier>{c998d1c2-82e7-11e5-adf0-005056c00008}</UniqueIdentifier>
+      <UniqueIdentifier>{1d612cd1-854a-11e5-accd-005056c00008}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files\Drivers">
-      <UniqueIdentifier>{c998d1c3-82e7-11e5-8669-005056c00008}</UniqueIdentifier>
+      <UniqueIdentifier>{1d6376c0-854a-11e5-b1df-005056c00008}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files\gui_examples">
-      <UniqueIdentifier>{c998d1c4-82e7-11e5-905e-005056c00008}</UniqueIdentifier>
+      <UniqueIdentifier>{1d6376c1-854a-11e5-8f94-005056c00008}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files\snake">
-      <UniqueIdentifier>{c998d1c5-82e7-11e5-b6e4-005056c00008}</UniqueIdentifier>
+      <UniqueIdentifier>{1d6376c2-854a-11e5-8924-005056c00008}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files\Kernel">
-      <UniqueIdentifier>{c998d1c6-82e7-11e5-b9d9-005056c00008}</UniqueIdentifier>
+      <UniqueIdentifier>{1d6376c3-854a-11e5-ad84-005056c00008}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files\WIN32">
-      <UniqueIdentifier>{c998d1c7-82e7-11e5-907c-005056c00008}</UniqueIdentifier>
+      <UniqueIdentifier>{1d6376c4-854a-11e5-982a-005056c00008}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files\Filesystem">
-      <UniqueIdentifier>{c99b42c0-82e7-11e5-87c7-005056c00008}</UniqueIdentifier>
+      <UniqueIdentifier>{1d6376c5-854a-11e5-b5fb-005056c00008}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files\DeviceDrivers">
-      <UniqueIdentifier>{c99b42c1-82e7-11e5-8f6e-005056c00008}</UniqueIdentifier>
+      <UniqueIdentifier>{1d65e7c0-854a-11e5-b182-005056c00008}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files\finsh">
-      <UniqueIdentifier>{c99b42c2-82e7-11e5-8291-005056c00008}</UniqueIdentifier>
+      <UniqueIdentifier>{1d65e7c1-854a-11e5-8427-005056c00008}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files\Components">
-      <UniqueIdentifier>{c99b42c3-82e7-11e5-87de-005056c00008}</UniqueIdentifier>
+      <UniqueIdentifier>{1d65e7c2-854a-11e5-90ca-005056c00008}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files\RTGUI">
-      <UniqueIdentifier>{c99d8cb0-82e7-11e5-9856-005056c00008}</UniqueIdentifier>
+      <UniqueIdentifier>{1d65e7c3-854a-11e5-a161-005056c00008}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -1142,6 +1148,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\..\libcpu\sim\win32\cpu_port.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\module.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

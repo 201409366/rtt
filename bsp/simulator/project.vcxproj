@@ -66,6 +66,7 @@
   <ItemGroup>
     <ClCompile Include="drivers\board.c" />
     <ClCompile Include="drivers\dfs_win32.c" />
+    <ClCompile Include="drivers\module_win32.c" />
     <ClCompile Include="drivers\nanddrv_file.c" />
     <ClCompile Include="drivers\sd_sim.c" />
     <ClCompile Include="drivers\sdl_fb.c" />
@@ -118,6 +119,7 @@
     <ClCompile Include="..\..\src\irq.c" />
     <ClCompile Include="..\..\src\kservice.c" />
     <ClCompile Include="..\..\src\mem.c" />
+    <ClCompile Include="..\..\src\module.c" />
     <ClCompile Include="..\..\src\object.c" />
     <ClCompile Include="..\..\src\scheduler.c" />
     <ClCompile Include="..\..\src\thread.c" />
@@ -447,5 +449,6 @@
     <ClInclude Include="..\..\include\rtservice.h" />
     <ClInclude Include="..\..\include\rtthread.h" />
     <ClInclude Include="..\..\libcpu\sim\win32\cpu_port.h" />
+    <ClInclude Include="..\..\src\module.h" />
   </ItemGroup>
 </Project>
