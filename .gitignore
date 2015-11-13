@@ -22,3 +22,5 @@ build
 /bsp/simulator/Debug
 /bsp/simulator/project.sdf
 /bsp/simulator/project.v11.suo
+/bsp/stm32f103RBT6Aerobat/*.yezi
+/bsp/stm32f103RBT6Aerobat/*.ewp
